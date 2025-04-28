@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Futura_Regular;
+  src: url(../fonts/futura-regular.woff) format("woff");
+  font-display: swap;
+}
+
+a {
+  color: #ffffff;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+html,
+body {
+  border: 0;
+  background-color: #fff;
+}
+
+body {
+  color: var(--shop-color-text);
+  line-height: 1.45;
+  font-size: 14px;
+  background: #fff;
+  font-family: "Futura_Regular", sans-serif;
+  overflow-x: hidden;
+  position: initial;
+}
