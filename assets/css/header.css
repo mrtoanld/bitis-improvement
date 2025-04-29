@@ -1,43 +1,82 @@
-/* ------------------- TOP BAR ---------------------- */
-.topbar {
-  text-align: center;
-  font-weight: 500;
-  font-size: 13px;
-  padding: 8px 0;
-  position: relative;
-  display: block;
-  background: #212026;
-  color: #ffffff;
-}
-.container-fluid {
+.mainHeader {
+  background: #fff;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-.topbar .topbar-content .right-topbar ul li ~ li {
-  padding: 0 0 0 10px;
-  margin: 0 0 0 10px;
-  border-left: 1px solid #fff;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
 }
 
-.topbar .topbar-content .left-topbar .aff-left {
-  padding: 0 0 0 15px;
-  margin: 0 0 0 15px;
-  border-left: 1px solid #fff;
+.mainHeader .flex-container-header {
+  margin: 0 -15px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
 }
 
-.topbar .topbar-content .left-topbar .hotline-left a {
-  font-weight: 700;
+.mainHeader .flex-container-header > div[class*="header-wrap-"] {
+  padding: 0 15px;
 }
 
-.topbar .topbar-content .right-topbar ul li a {
-  display: block;
+.mainHeader .header-wrap-logo h1,
+.mainHeader .header-wrap-logo a {
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0;
+  color: var(--shop-color-main);
+  white-space: initial;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
 }
 
-.topbar .topbar-content .right-topbar ul li.bitis-b2b a {
+.new_hunter {
+  background: #ff3d00;
+  height: 70px;
+}
+
+.new_hunter a {
+  display: -webkit-flex;
+  display: flex;
+  font-family: "MN_Hunter", sans-serif;
+  font-size: 36px;
+  line-height: 19.5px;
+  align-items: center;
   position: relative;
-  display: block;
-  width: 8.8vw;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  color: #111111;
+}
+.new_hunter a svg {
+  position: absolute;
+  left: 0;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.new_hunter a span {
+  margin-top: 8px;
+}
+
+@media (max-width: 1024px) {
+  .new_hunter a {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-fluid {
+    max-width: 1600px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
 }
