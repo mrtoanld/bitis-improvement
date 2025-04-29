@@ -62,6 +62,10 @@
   </div>
 </template>
 <script>
-import "~/assets/css/header.css";
+import "~/assets/css/top-bar.css";
 </script>
-<style scoped></style>
+<style scoped>
+a {
+  color: #ffffff;
+}
+</style>

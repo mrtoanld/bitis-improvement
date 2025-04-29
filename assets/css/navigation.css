@@ -1,0 +1,72 @@
+.mainHeader .header-wrap-menu ul.menuList-primary {
+  margin: 0;
+  position: relative;
+  z-index: 2;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.mainHeader .flex-container-header > div[class*="header-wrap-"] {
+  padding: 0 15px;
+}
+
+.mainHeader .header-wrap-menu ul.menuList-primary > li {
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+}
+
+.mainHeader .header-wrap-menu ul.menuList-primary > li:before {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border-radius: 0;
+  z-index: -1;
+  background-color: var(--shop-color-text);
+  height: 2px;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 100%;
+  transform-origin: 100%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+.mainHeader.mainHeader_temp02:not(.hSticky-nav)
+  .header-wrap-menu
+  ul.menuList-primary
+  > li
+  > a {
+  @apply px-[25px];
+}
+
+.mainHeader.mainHeader_temp02:not(.hSticky-nav)
+  .header-wrap-menu
+  ul.menuList-primary
+  > li
+  > a {
+  color: #000;
+}
+
+.header-wrap-menu ul li {
+  white-space: nowrap;
+}
+
+.header-wrap-menu ul li span {
+  text-transform: uppercase;
+}
+
+.header-wrap-menu ul li span.iconify {
+  margin-top: 7px;
+}
+
+.header-wrap-menu ul li a::before {
+  background-color: transparent;
+}
