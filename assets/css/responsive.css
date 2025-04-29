@@ -1,0 +1,9 @@
+@media (992px <= width <= 1199px) {
+  .mainHeader .header-wrap-menu ul li span {
+    font-size: 11px;
+  }
+
+  .sitenav-search {
+    display: none;
+  }
+}

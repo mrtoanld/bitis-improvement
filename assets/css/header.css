@@ -1,0 +1,82 @@
+.mainHeader {
+  background: #fff;
+  width: 100%;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+}
+
+.mainHeader .flex-container-header {
+  margin: 0 -15px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-flex-flow: row nowrap;
+  flex-flow: row nowrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.mainHeader .flex-container-header > div[class*="header-wrap-"] {
+  padding: 0 15px;
+}
+
+.mainHeader .header-wrap-logo h1,
+.mainHeader .header-wrap-logo a {
+  font-size: 26px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0;
+  color: var(--shop-color-main);
+  white-space: initial;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+
+.new_hunter {
+  background: #ff3d00;
+  height: 70px;
+}
+
+.new_hunter a {
+  display: -webkit-flex;
+  display: flex;
+  font-family: "MN_Hunter", sans-serif;
+  font-size: 36px;
+  line-height: 19.5px;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  color: #111111;
+}
+.new_hunter a svg {
+  position: absolute;
+  left: 0;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.new_hunter a span {
+  margin-top: 8px;
+}
+
+@media (max-width: 1024px) {
+  .new_hunter a {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-fluid {
+    max-width: 1600px;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+}
