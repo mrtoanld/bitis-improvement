@@ -1,0 +1,7 @@
+.slider-container .overflow-hidden img {
+  width: 100%;
+}
+
+.slider-container > div > div:nth-child(2) > div {
+  bottom: 5%;
+}
