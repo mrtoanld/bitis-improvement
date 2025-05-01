@@ -119,6 +119,9 @@
       </a>
     </div>
   </div>
+  <div>
+    <Slider />
+  </div>
 </template>
 <script>
 import "~/assets/css/header.css";
