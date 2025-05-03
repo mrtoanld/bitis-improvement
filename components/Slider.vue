@@ -10,7 +10,14 @@
       :items="items"
       class="w-full h-auto mx-auto"
     >
-      <NuxtImg :src="item" width="100vw" height="auto" preload />
+      <NuxtImg
+        :src="item"
+        width="100vw"
+        height="auto"
+        preload
+        loading="lazy"
+        alt="slider image"
+      />
     </UCarousel>
   </div>
 </template>

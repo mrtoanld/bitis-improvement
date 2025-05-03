@@ -3,13 +3,13 @@
 
 @font-face {
   font-family: Futura_Regular;
-  src: url(assets/fonts/futura-regular.woff) format("woff");
+  src: url(/fonts/futura-regular.woff) format("woff");
   font-display: swap;
 }
 
 @font-face {
   font-family: MN_Hunter;
-  src: url(assets/fonts/mn-hunter.woff2) format("woff");
+  src: url(/fonts/mn-hunter.woff2) format("woff");
   font-display: swap;
 }
 

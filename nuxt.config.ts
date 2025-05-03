@@ -18,4 +18,15 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
   css: ["~/assets/css/common.css", "~/assets/css/header.css"],
+  app: {
+    head: {
+      title: "Biti's Homepage", // default fallback title
+      htmlAttrs: {
+        lang: "vn",
+      },
+      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+      charset: "utf-16",
+      viewport: "width=device-width, initial-scale=1, maximum-scale=1",
+    },
+  },
 });
