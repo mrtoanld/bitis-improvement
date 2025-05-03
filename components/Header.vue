@@ -26,6 +26,7 @@
                     preload
                     width="95"
                     height="60"
+                    alt="Biti's logo"
                   />
                 </a>
               </div>
@@ -114,7 +115,13 @@
   <div class="new_hunter">
     <div class="container-fluid h-full">
       <a href="/pages/hunter" class="justify-start gap-[16vw]">
-        <NuxtImg src="/img/new-hunter.svg" preload width="127" height="41" />
+        <NuxtImg
+          src="/img/new-hunter.svg"
+          preload
+          width="127"
+          height="41"
+          alt="New Hunter Logo"
+        />
         <span>Biti's Hunter thế hệ mới</span>
       </a>
     </div>

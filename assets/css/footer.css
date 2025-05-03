@@ -1,0 +1,191 @@
+.mainFooter {
+  background: var(--footer-bg-color-2);
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mainFooter .footer-container .footer-expand-title {
+  text-align: center;
+  display: block;
+  padding: 10px 0 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #ffffff;
+}
+
+.mainFooter .footer-container .footer-expand-title span.arrow-up {
+  display: block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  margin: 8px auto 4px;
+  text-align: center;
+  border-radius: 50%;
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+  transition: transform 0.4s ease-in-out 0s;
+  -moz-transition: transform 0.4s ease-in-out 0s;
+  -webkit-transition: transform 0.4s ease-in-out 0s;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px / 1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mainFooter .footer-container .footer-expand-collapsed {
+  display: none;
+  color: var(--footer-color-title);
+}
+
+.footer-expand-collapsed .row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.mainFooter .footer-container .widget-footer .title-footer,
+.mainFooter .footer-container .widget-footer .fter-title {
+  position: relative;
+  font-size: 16px;
+  color: var(--footer-color-title);
+  margin: 0px;
+  padding: 15px 0;
+  font-weight: 500;
+}
+
+.mainFooter .footer-container .widget-footer .block-collapse {
+  display: none;
+  padding: 10px 0px 20px;
+  font-weight: 500;
+}
+
+.mainFooter .footer-container .widget-footer .footerNav-link li {
+  position: relative;
+  margin: 0 0 8px;
+}
+
+.mainFooter .footer-container .widget-footer .footerNav-link li a {
+  color: #656565;
+  font-weight: 500;
+}
+
+.mainFooter .footer-container .widget-footer:last-child {
+  border-bottom: 0;
+}
+
+.mainFooter .footer-container .widget-footer .title-footer,
+.mainFooter .footer-container .widget-footer .fter-title {
+  position: relative;
+  font-size: 16px;
+  color: #333333;
+  margin: 0px;
+  padding: 15px 0;
+  font-weight: 500;
+}
+
+.mainFooter .footer-container .widget-footer .block-collapse {
+  display: none;
+  padding: 10px 0px 20px;
+  font-weight: 500;
+}
+
+.mainFooter .footer-container .logoFooter {
+  margin-bottom: 20px;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainFooter .footer-container .logoFooter svg {
+  width: 110px;
+}
+
+.mainFooter .footer-copyright {
+  border-top: 1px solid #e7e7e7;
+  padding: 15px 0;
+  background: #dfdfdf;
+  color: #333333;
+}
+
+.mainFooter .container .widget-footer a span,
+.content-footer .lineItemAddress b,
+.content-footer .lineItemAddress li {
+  font-size: 14px;
+}
+
+.mainFooter .container .widget-footer a img {
+  max-width: 145px;
+}
+
+.content-footer .lineItemAddress li {
+  margin-bottom: 8px;
+}
+
+.footer-copyright .footerBottom-left,
+.footer-copyright .footerBottom-right {
+  font-size: 14px;
+}
+
+@media (min-width: 992px) {
+  .mainFooter .footer-container .footer-expand-title {
+    display: none;
+  }
+
+  .mainFooter .footer-container .footer-expand-collapsed {
+    display: block;
+    padding: 40px 0 0;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .mainFooter .footer-container .widget-footer {
+    border-bottom: 0;
+  }
+
+  .mainFooter .footer-container .widget-footer .title-footer,
+  .mainFooter .footer-container .widget-footer .fter-title {
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 12px;
+  }
+
+  .mainFooter .footer-container .widget-footer:nth-child(1) .block-collapse {
+    display: flex;
+  }
+
+  .mainFooter .footer-container .widget-footer .title-footer,
+  .mainFooter .footer-container .widget-footer .fter-title {
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 12px;
+  }
+
+  .mainFooter .footer-container .widget-footer .block-collapse {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer-copyright .container {
+    max-width: 1430px;
+    width: 100%;
+    padding: 0 80px;
+  }
+}
