@@ -1,6 +1,4 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import tailwindcss from "@tailwindcss/vite";
-
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
@@ -14,10 +12,7 @@ export default defineNuxtConfig({
     "@nuxt/ui",
     "@nuxt/content",
   ],
-  vite: {
-    plugins: [tailwindcss()],
-  },
-  css: ["~/assets/css/common.css", "~/assets/css/header.css"],
+  css: ["~/assets/css/common.scss"],
   app: {
     head: {
       title: "Biti's Homepage", // default fallback title

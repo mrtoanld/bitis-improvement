@@ -7,6 +7,7 @@
     <Footer />
   </div>
 </template>
-<script setup>
-import "~/assets/css/common.css";
-</script>
+<script setup></script>
+<style lang="scss">
+@use "~/assets/css/common.scss";
+</style>

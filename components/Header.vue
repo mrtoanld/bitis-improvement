@@ -130,9 +130,8 @@
     <Slider />
   </div>
 </template>
-<script>
-import "~/assets/css/header.css";
-import "~/assets/css/navigation.css";
-import "~/assets/css/responsive.css";
-</script>
-<style></style>
+<style lang="scss">
+@use "~/assets/css/header.scss";
+@use "~/assets/css/navigation.css";
+@use "~/assets/css/responsive.css";
+</style>

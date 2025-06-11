@@ -8,7 +8,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import "~/assets/css/header.css";
+import "~/assets/css/header.scss";
 import "~/assets/css/header-action.css";
 import type { NavigationMenuItem } from "@nuxt/ui";
 

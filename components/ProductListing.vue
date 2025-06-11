@@ -110,11 +110,9 @@
                 <h4>
                   <a
                     href="/products/giay-the-thao-nam-biti-s-hunter-x-litedash-original-edition-2k24-hsm007506kel"
-                    arial-label="[Sale khủng đồng giá 799k] Giày Thể Thao Biti’s Hunter X LiteDash - Original Edition 2K24 Nam Màu Kem Lợt HSM007506KEL"
-                    title="[Sale khủng đồng giá 799k] Giày Thể Thao Biti’s Hunter X LiteDash - Original Edition 2K24 Nam Màu Kem Lợt HSM007506KEL"
-                    >[Sale khủng đồng giá 799k] Giày Thể Thao Biti’s Hunter X
-                    LiteDash - Original Edition 2K24 Nam Màu Kem Lợt
-                    HSM007506KEL</a
+                    v-bind:arial-label="item.title"
+                    v-bind:title="item.title"
+                    >{{ item.title }}</a
                   >
                 </h4>
               </div>
